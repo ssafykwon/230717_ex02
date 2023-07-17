@@ -18,3 +18,10 @@ with st.echo():
     st.write('반지름 : ', r)
     st.write('원의 둘레 : ', 2 * pi * r)
     st.write('원의 넓이 : ', pi * r ** 2)
+
+with st.echo():
+    r = st.number_input("반지름 입력:")
+    st.write('원주율 : ', pi)
+    st.write('반지름 : ', r)
+    st.write('원의 둘레 : ', 2 * pi * r)
+    st.write('원의 넓이 : ', pi * r ** 2)
